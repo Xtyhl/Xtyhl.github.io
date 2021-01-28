@@ -1,47 +1,64 @@
 <!DOCTYPE HTML>
 <html lang="es">
-  <head>
-      <title>Hola Mundo</title>
-      <meta name="description" content="Mi primer Curso HTML">
-      <meta name="autor" content="Martin Macgowan">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <script>
-        alert("¡Bienvenido a mi primera página!")
-      </script>
-          <style>
-            a { color: inherit; } 
-                   </style>
- 
-  </head>
-  <body>
-    <div id="header">
+
+<head>
+  <title>MartinWeb</title>
+  <meta name="description" content="Mi primer Curso HTML">
+  <meta name="autor" content="Martin Macgowan">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script>
+    alert("¡Bienvenido a mi primera página!")
+  </script>
+  <style>
+    a {
+      color: inherit;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    body {
+      max-width: 960px;
+      margin: 0%auto;
+    }
+    h1 {
+            text-align: center;
+        }
+
+  </style>
+
+</head>
+
+<body>
+  <div id="header">
     <div>
-      <h2> Mi Primer Curso </h2>
-  <!-- Terminar "Avances" y "Proximamente" y agregarle referencias -->    
-   <ol class="breadcrumb"> 
-       <li class="breadcrumb-item">Avances </li>
-       <li class="breadcrumb-item"> <a href="Extras1.html">Extra </a></li>
-       <li class="breadcrumb-item"> Proximamente</li>
-        
-   </ol>
-  </div>
-   <div id="article">
+      <h1> Mi Primer Curso </h1>
+      <!-- Terminar "Avances" y "Proximamente" y agregarle referencias -->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"> <a href="Avances-1.html">Avances </a> </li>
+        <li class="breadcrumb-item"> <a class="extra" href="Extras1.html">Extra </a></li>
+        <li class="breadcrumb-item"> Proximamente</li>
+
+      </ol>
+    </div>
+    <div id="article">
       <hr />
-      <h2> Mi Primer Curso de Programacion en Pluralsight</h2>
+      <h1> Mi Primer Curso de Programacion en Pluralsight</h1>
     </div>
     <div id="body">
       <p>Primer curso para aprender a programar en html, css y javascript.</p>
-      <p>Ya terminé la primera<sup><abbr title="Número Uno">1</abbr></sup> parte del curso.</p>
+      <p>Ya terminé la primera parte del curso.</p>
       <p>Todavia me falta mucho pero <span class="fact">quiero seguir aprendiendo</p>
       <h4> Agradecimientos</h4>
-      <q> Empezé el curso en <abbr title="PluralSight">PS</abbr> gracias a mi papá<sup><abbr title="Te quiero">2</abbr></sup>.</q>
+      <q> Empezé el curso en PS gracias a mi papá<sup><abbr
+            title="Te quiero">2</abbr></sup>.</q>
       <br />
       <cite> Martin Macgowan, BuenosAires&lt;CABA&gt;</cite>
     </div>
   </div>
-    <hr />
-    <div id="footer">
-    Copyright Martin Macgowan 2020  &copy;
-    </div>
-  </body>
-</html>    
+  <hr />
+  </div>
+</body>
+
+</html>
